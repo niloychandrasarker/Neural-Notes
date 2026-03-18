@@ -228,6 +228,86 @@ function ConceptDetailPage() {
               </a>
             </div>
           )}
+          {concept.slug === "clustering-algorithms" && (
+            <div className="mt-6 rounded-2xl border border-blue-400/20 bg-slate-950/60 p-4">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/70 sm:text-xs sm:tracking-[0.2em]">
+                Reference PDF
+              </p>
+              <iframe
+                title="Clustering Algorithms PDF"
+                src="/ML%20concept/clustering_algorithms.pdf"
+                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+              />
+              <a
+                href="/ML%20concept/clustering_algorithms.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/80 hover:text-white sm:text-xs sm:tracking-[0.2em]"
+              >
+                Open PDF in new tab
+              </a>
+            </div>
+          )}
+          {concept.slug === "bayesian-inference" && (
+            <div className="mt-6 rounded-2xl border border-blue-400/20 bg-slate-950/60 p-4">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/70 sm:text-xs sm:tracking-[0.2em]">
+                Reference PDF
+              </p>
+              <iframe
+                title="Bayesian Inference PDF"
+                src="/ML%20concept/bayesian_inference.pdf"
+                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+              />
+              <a
+                href="/ML%20concept/bayesian_inference.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/80 hover:text-white sm:text-xs sm:tracking-[0.2em]"
+              >
+                Open PDF in new tab
+              </a>
+            </div>
+          )}
+          {concept.slug === "time-series-analysis" && (
+            <div className="mt-6 rounded-2xl border border-blue-400/20 bg-slate-950/60 p-4">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/70 sm:text-xs sm:tracking-[0.2em]">
+                Reference PDF
+              </p>
+              <iframe
+                title="Time Series Analysis PDF"
+                src="/ML%20concept/time_series_analysis.pdf"
+                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+              />
+              <a
+                href="/ML%20concept/time_series_analysis.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/80 hover:text-white sm:text-xs sm:tracking-[0.2em]"
+              >
+                Open PDF in new tab
+              </a>
+            </div>
+          )}
+          {concept.slug === "self-supervised-learning" && (
+            <div className="mt-6 rounded-2xl border border-blue-400/20 bg-slate-950/60 p-4">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/70 sm:text-xs sm:tracking-[0.2em]">
+                Reference PDF
+              </p>
+              <iframe
+                title="Self-Supervised Learning PDF"
+                src="/ML%20concept/self_supervised_learning.pdf"
+                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+              />
+              <a
+                href="/ML%20concept/self_supervised_learning.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-200/80 hover:text-white sm:text-xs sm:tracking-[0.2em]"
+              >
+                Open PDF in new tab
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>
