@@ -1,0 +1,130 @@
+export const concepts = [
+  {
+    slug: "supervised-learning",
+    title: "Supervised Learning",
+    iconType: "supervised",
+    summary: "Labeled data, predictive mapping, and evaluation loops.",
+    content: [],
+  },
+  {
+    slug: "unsupervised-learning",
+    title: "Unsupervised Learning",
+    iconType: "unsupervised",
+    summary: "Discovering structure without labels.",
+    content: [
+      "Cluster similar samples by distance and density.",
+      "Reduce dimensionality for visualization and compression.",
+      "Analyze latent patterns to guide feature design.",
+    ],
+  },
+  {
+    slug: "reinforcement-learning",
+    title: "Reinforcement Learning",
+    iconType: "reinforcement",
+    summary: "Agents, rewards, and sequential decisions.",
+    content: [
+      "Define states, actions, and reward signals.",
+      "Balance exploration vs exploitation strategies.",
+      "Use value or policy optimization methods.",
+    ],
+  },
+  {
+    slug: "deep-learning",
+    title: "Deep Learning",
+    iconType: "deep",
+    summary: "Layered representation learning at scale.",
+    content: [
+      "Stack nonlinear layers to model complex patterns.",
+      "Use normalization and residual paths for stability.",
+      "Tune depth, width, and regularization.",
+    ],
+  },
+  {
+    slug: "nlp",
+    title: "Natural Language Processing",
+    iconType: "nlp",
+    summary: "Tokenization, embeddings, and sequence modeling.",
+    content: [
+      "Prepare text with tokenization and vocabulary strategy.",
+      "Train embeddings or use pretrained language models.",
+      "Evaluate with task-specific metrics.",
+    ],
+  },
+  {
+    slug: "computer-vision",
+    title: "Computer Vision",
+    iconType: "vision",
+    summary: "From pixels to perception.",
+    content: [
+      "Use convolutional layers for local features.",
+      "Apply augmentations to improve generalization.",
+      "Track detection and segmentation quality metrics.",
+    ],
+  },
+  {
+    slug: "gans",
+    title: "Generative Adversarial Networks",
+    iconType: "gans",
+    summary: "Two models competing to create new data.",
+    content: [
+      "Train generator and discriminator in tandem.",
+      "Balance losses to avoid mode collapse.",
+      "Monitor realism and diversity metrics.",
+    ],
+  },
+  {
+    slug: "dimensionality-reduction",
+    title: "Dimensionality Reduction",
+    iconType: "reduction",
+    summary: "Simplify data while preserving structure.",
+    content: [
+      "Use PCA, t-SNE, or UMAP for projections.",
+      "Inspect variance retention and embedding quality.",
+      "Feed reduced features into downstream models.",
+    ],
+  },
+  {
+    slug: "clustering-algorithms",
+    title: "Clustering Algorithms",
+    iconType: "clustering",
+    summary: "Grouping patterns by similarity.",
+    content: [
+      "Choose k-means, DBSCAN, or hierarchical methods.",
+      "Validate with silhouette or Davies-Bouldin scores.",
+      "Interpret clusters for actionable insights.",
+    ],
+  },
+  {
+    slug: "bayesian-inference",
+    title: "Bayesian Inference",
+    iconType: "bayesian",
+    summary: "Probabilistic reasoning with priors.",
+    content: [
+      "Define priors and likelihood functions.",
+      "Update beliefs using Bayes rule.",
+      "Quantify uncertainty in predictions.",
+    ],
+  },
+  {
+    slug: "time-series-analysis",
+    title: "Time Series Analysis",
+    iconType: "timeseries",
+    summary: "Trends, seasonality, and forecasting.",
+    content: [
+      "Decompose signals into trend and seasonal parts.",
+      "Model with ARIMA, RNNs, or transformers.",
+      "Evaluate with rolling forecast errors.",
+    ],
+  },
+  {
+    slug: "self-supervised-learning",
+    title: "Self-Supervised Learning",
+    iconType: "selfsupervised",
+    summary: "Create labels from the data itself.",
+    content: [
+      "Design pretext tasks and contrastive objectives.",
+      "Leverage large unlabeled datasets.",
+      "Transfer representations to downstream tasks.",
+    ],
+  },
+];
