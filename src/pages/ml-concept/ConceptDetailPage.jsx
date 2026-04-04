@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { concepts } from "../data/concepts";
+import { concepts } from "../../data/concepts";
 
 function ConceptDetailPage() {
   const { slug } = useParams();

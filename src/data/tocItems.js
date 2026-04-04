@@ -1,6 +1,6 @@
 export const tocItems = [
   "AI & ML Deep Dive: 12 Core Concepts",
-  "Neuron Model and Activation",
+  "Phitron AI/ML",
   "Forward Propagation Flow",
   "Loss Functions and Metrics",
   "Backpropagation Basics",

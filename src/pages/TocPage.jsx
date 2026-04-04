@@ -34,6 +34,15 @@ const iconSet = [
   </>,
 ];
 
+const subtitleSet = [
+  "Curated notes, experiments, and study checkpoints.",
+  "Roadmap, lectures, and project notes from Phitron.",
+  "Curated notes, experiments, and study checkpoints.",
+  "Curated notes, experiments, and study checkpoints.",
+  "Curated notes, experiments, and study checkpoints.",
+  "Curated notes, experiments, and study checkpoints.",
+];
+
 function TocPage() {
   const baseCardClass =
     "group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4 text-slate-100 transition hover:-translate-y-1 hover:border-cyan-300/50 hover:bg-white/10";
@@ -80,6 +89,20 @@ function TocPage() {
           <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {tocItems.map((item, index) => {
               const icon = iconSet[index % iconSet.length];
+              const subtitle = subtitleSet[index % subtitleSet.length];
+              const isPhitron = index === 1;
+              const aiMlIcon = (
+                <>
+                  <path d="M12 3c-2.2 0-4 1.8-4 4v3" />
+                  <path d="M12 3c2.2 0 4 1.8 4 4v3" />
+                  <path d="M8 10H6a2 2 0 0 0-2 2v1" />
+                  <path d="M16 10h2a2 2 0 0 1 2 2v1" />
+                  <path d="M6 13v3a4 4 0 0 0 8 0v-1" />
+                  <path d="M10 17h4" />
+                  <path d="M9 7h.01" />
+                  <path d="M15 7h.01" />
+                </>
+              );
               const card = (
                 <>
                   <div className="pointer-events-none absolute -right-10 -top-10 h-24 w-24 rounded-full bg-cyan-400/10 blur-2xl transition group-hover:bg-cyan-300/20" />
@@ -102,15 +125,13 @@ function TocPage() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      {icon}
+                      {isPhitron ? aiMlIcon : icon}
                     </svg>
                   </div>
                   <h3 className="mt-4 text-base font-semibold text-white">
                     {item}
                   </h3>
-                  <p className="mt-2 text-xs text-slate-200/70">
-                    Curated notes, experiments, and study checkpoints.
-                  </p>
+                  <p className="mt-2 text-xs text-slate-200/70">{subtitle}</p>
                   <span className="mt-4 inline-flex text-[10px] font-semibold uppercase tracking-[0.24em] text-cyan-200/70">
                     Open
                   </span>
@@ -123,6 +144,18 @@ function TocPage() {
                     key={item}
                     to="/concepts"
                     className={`${baseCardClass} border-cyan-400/40 bg-cyan-400/10 shadow-[0_12px_24px_rgba(8,145,178,0.2)] hover:bg-cyan-300/15`}
+                  >
+                    {card}
+                  </Link>
+                );
+              }
+
+              if (index === 1) {
+                return (
+                  <Link
+                    key={item}
+                    to="/phitron-ai-ml"
+                    className={`${baseCardClass} border-emerald-300/40 bg-emerald-400/10 shadow-[0_12px_24px_rgba(16,185,129,0.2)] hover:border-emerald-200 hover:bg-emerald-300/15`}
                   >
                     {card}
                   </Link>

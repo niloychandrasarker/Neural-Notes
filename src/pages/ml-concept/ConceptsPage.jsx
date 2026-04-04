@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { concepts } from "../data/concepts";
+import { concepts } from "../../data/concepts";
 
 const iconMap = {
   supervised: (
