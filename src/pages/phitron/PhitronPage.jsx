@@ -87,7 +87,7 @@ function PhitronPage() {
                 Phitron AI/ML Track
               </p>
               <h1 className="mt-3 text-2xl font-semibold text-white sm:text-3xl md:text-5xl">
-                Concept Dashboard
+                Phitron AI & ML
               </h1>
               <p className="mt-2 max-w-2xl text-xs text-slate-200/80 sm:text-sm md:text-base">
                 A dedicated space for the Phitron AI/ML roadmap, sessions, and
@@ -208,4 +208,3 @@ function PhitronPage() {
 }
 
 export default PhitronPage;
-
