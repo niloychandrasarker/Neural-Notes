@@ -36,7 +36,7 @@ function OptionalCoursePage() {
   return (
     <div className="min-h-screen bg-[#070b18] text-white">
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10 sm:px-6 sm:py-12">
-        <header className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#131a32] via-[#0b1227] to-[#0a0f1f] px-6 py-8 shadow-[0_26px_70px_rgba(5,10,30,0.6)] sm:px-8 sm:py-10">
+        <header className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-[#131a32] via-[#0b1227] to-[#0a0f1f] px-6 py-8 shadow-[0_26px_70px_rgba(5,10,30,0.6)] sm:px-8 sm:py-10">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_25%,rgba(59,130,246,0.28),transparent_45%),radial-gradient(circle_at_80%_15%,rgba(16,185,129,0.2),transparent_45%)]" />
           <div className="relative flex flex-wrap items-start justify-between gap-6">
             <div>

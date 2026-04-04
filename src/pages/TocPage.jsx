@@ -85,7 +85,7 @@ function TocPage() {
               </svg>
             </Link>
           </div>
-          <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-cyan-300/50 to-transparent" />
+          <div className="mt-6 h-px w-full bg-linear-to-r from-transparent via-cyan-300/50 to-transparent" />
           <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {tocItems.map((item, index) => {
               const icon = iconSet[index % iconSet.length];
@@ -106,7 +106,7 @@ function TocPage() {
               const card = (
                 <>
                   <div className="pointer-events-none absolute -right-10 -top-10 h-24 w-24 rounded-full bg-cyan-400/10 blur-2xl transition group-hover:bg-cyan-300/20" />
-                  <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/50 to-transparent" />
+                  <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-cyan-300/50 to-transparent" />
                   <div className="flex items-center justify-between">
                     <span className="rounded-full border border-cyan-400/40 bg-cyan-400/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.24em] text-cyan-200/80">
                       {String(index + 1).padStart(2, "0")}
@@ -176,3 +176,4 @@ function TocPage() {
 }
 
 export default TocPage;
+

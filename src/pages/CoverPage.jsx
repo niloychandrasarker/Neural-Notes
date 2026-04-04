@@ -59,12 +59,12 @@ function CoverPage() {
               </div>
             </div>
             <div
-              className="relative h-64 overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-[#0f172a] via-[#0b1327] to-[#0a1122] sm:h-72"
+              className="relative h-64 overflow-hidden rounded-2xl border border-white/10 bg-linear-to-br from-[#0f172a] via-[#0b1327] to-[#0a1122] sm:h-72"
               aria-hidden="true"
             >
               <div className="absolute -left-16 top-8 h-40 w-40 rounded-full bg-cyan-400/20 blur-2xl animate-[pulse_6s_ease-in-out_infinite]" />
               <div className="absolute -right-10 bottom-10 h-44 w-44 rounded-full bg-sky-400/20 blur-2xl animate-[pulse_7s_ease-in-out_infinite]" />
-              <div className="absolute inset-0 opacity-50 [transform:perspective(700px)_rotateX(60deg)_translateY(40px)] bg-[linear-gradient(rgba(34,211,238,0.25)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.25)_1px,transparent_1px)] bg-[length:26px_26px] animate-[drift_12s_linear_infinite]" />
+              <div className="absolute inset-0 opacity-50 transform-[perspective(700px)_rotateX(60deg)_translateY(40px)] bg-[linear-gradient(rgba(34,211,238,0.25)_1px,transparent_1px),linear-gradient(90deg,rgba(34,211,238,0.25)_1px,transparent_1px)] bg-size-[26px_26px] animate-[drift_12s_linear_infinite]" />
               <div className="absolute left-12 top-20 h-3 w-3 rounded-full bg-cyan-100/90 shadow-[0_0_18px_rgba(34,211,238,0.7)] animate-[float_6s_ease-in-out_infinite]" />
               <div className="absolute left-40 top-36 h-2 w-2 rounded-full bg-cyan-100/80 shadow-[0_0_16px_rgba(34,211,238,0.6)] animate-[float_6s_ease-in-out_infinite] [animation-delay:1.5s]" />
               <div className="absolute left-56 top-16 h-2.5 w-2.5 rounded-full bg-cyan-100/80 shadow-[0_0_16px_rgba(34,211,238,0.6)] animate-[float_6s_ease-in-out_infinite] [animation-delay:3s]" />
@@ -79,3 +79,4 @@ function CoverPage() {
 }
 
 export default CoverPage;
+

@@ -75,7 +75,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Supervised Learning PDF"
                 src="/ML%20concept/supervised%20learning.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/supervised%20learning.pdf"
@@ -95,7 +95,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Unsupervised Learning PDF"
                 src="/ML%20concept/unsupervised_learning.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/unsupervised_learning.pdf"
@@ -115,7 +115,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Reinforcement Learning PDF"
                 src="/ML%20concept/reinforcement_learning.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/reinforcement_learning.pdf"
@@ -136,7 +136,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Deep Learning PDF"
                 src="/ML%20concept/deep_learning.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/deep_learning.pdf"
@@ -156,7 +156,7 @@ function ConceptDetailPage() {
               <iframe
                 title="NLP PDF"
                 src="/ML%20concept/nlp.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/nlp.pdf"
@@ -176,7 +176,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Computer Vision PDF"
                 src="/ML%20concept/computer_vision.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/computer_vision.pdf"
@@ -196,7 +196,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Generative AI PDF"
                 src="/ML%20concept/generative_ai.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/generative_ai.pdf"
@@ -216,7 +216,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Signal Decomposition PDF"
                 src="/ML%20concept/signal_decomposition.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/signal_decomposition.pdf"
@@ -236,7 +236,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Clustering Algorithms PDF"
                 src="/ML%20concept/clustering_algorithms.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/clustering_algorithms.pdf"
@@ -256,7 +256,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Bayesian Inference PDF"
                 src="/ML%20concept/bayesian_inference.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/bayesian_inference.pdf"
@@ -276,7 +276,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Time Series Analysis PDF"
                 src="/ML%20concept/time_series_analysis.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/time_series_analysis.pdf"
@@ -296,7 +296,7 @@ function ConceptDetailPage() {
               <iframe
                 title="Self-Supervised Learning PDF"
                 src="/ML%20concept/self_supervised_learning.pdf"
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href="/ML%20concept/self_supervised_learning.pdf"
@@ -315,3 +315,4 @@ function ConceptDetailPage() {
 }
 
 export default ConceptDetailPage;
+

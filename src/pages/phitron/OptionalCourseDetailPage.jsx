@@ -89,7 +89,7 @@ function OptionalCourseDetailPage() {
               <iframe
                 title={concept.pdfTitle || concept.title}
                 src={concept.pdf}
-                className="mt-4 h-[55vh] min-h-[360px] w-full rounded-xl border border-white/10 sm:h-[520px]"
+                className="mt-4 h-[55vh] min-h-90 w-full rounded-xl border border-white/10 sm:h-130"
               />
               <a
                 href={concept.pdf}

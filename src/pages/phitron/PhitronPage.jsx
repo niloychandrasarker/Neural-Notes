@@ -78,7 +78,7 @@ function PhitronPage() {
   return (
     <div className="min-h-screen bg-[#070b18] text-white">
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4 py-10 sm:px-6 sm:py-12">
-        <header className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#141a3a] via-[#0b1227] to-[#0a0f1f] px-6 py-8 shadow-[0_30px_80px_rgba(5,10,30,0.65)] sm:px-8 sm:py-10 md:px-12">
+        <header className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-[#141a3a] via-[#0b1227] to-[#0a0f1f] px-6 py-8 shadow-[0_30px_80px_rgba(5,10,30,0.65)] sm:px-8 sm:py-10 md:px-12">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(34,197,94,0.28),transparent_45%),radial-gradient(circle_at_85%_20%,rgba(251,191,36,0.18),transparent_45%)]" />
           <div className="pointer-events-none absolute inset-0 opacity-30 animate-[scan_9s_ease-in-out_infinite] bg-[linear-gradient(110deg,transparent_0%,rgba(250,204,21,0.22)_50%,transparent_100%)] -translate-x-full" />
           <div className="relative flex flex-wrap items-start justify-between gap-6">
@@ -208,3 +208,4 @@ function PhitronPage() {
 }
 
 export default PhitronPage;
+

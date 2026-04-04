@@ -104,7 +104,7 @@ function ConceptsPage() {
   return (
     <div className="min-h-screen bg-[#070b18] text-white">
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4 py-10 sm:px-6 sm:py-12">
-        <header className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#0d1b3f] via-[#0b1430] to-[#070b1a] px-6 py-8 shadow-[0_30px_80px_rgba(5,10,30,0.6)] sm:px-8 sm:py-10 md:px-12">
+        <header className="relative overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-[#0d1b3f] via-[#0b1430] to-[#070b1a] px-6 py-8 shadow-[0_30px_80px_rgba(5,10,30,0.6)] sm:px-8 sm:py-10 md:px-12">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_12%_15%,rgba(59,130,246,0.35),transparent_40%),radial-gradient(circle_at_85%_10%,rgba(251,191,36,0.15),transparent_40%)]" />
           <Link
             to="/"
@@ -186,3 +186,4 @@ function ConceptsPage() {
 }
 
 export default ConceptsPage;
+
